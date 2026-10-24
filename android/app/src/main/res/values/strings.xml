@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Token Manager</string>
+
+    <!-- Bloqueo / autenticación -->
+    <string name="lock_subtitle">Autentícate para acceder a tus credenciales</string>
+    <string name="lock_titulo">Acceso protegido</string>
+    <string name="lock_descripcion">Usa tu huella, rostro o el PIN del dispositivo para ver los tokens y contraseñas guardados.</string>
+    <string name="lock_desbloquear">Desbloquear</string>
+    <string name="lock_esperando">Esperando autenticación…</string>
+    <string name="lock_cancelado">Autenticación cancelada. Pulsa «Desbloquear» para intentarlo de nuevo.</string>
+    <string name="lock_fallido">No se reconoció la credencial. Inténtalo otra vez.</string>
+    <string name="aviso_sin_bloqueo">Este dispositivo no tiene PIN ni biometría configurados. Los datos siguen cifrados, pero no se pedirá autenticación al abrir la app.</string>
+
+    <!-- Lista -->
+    <string name="lista_subtitulo">%1$d registro(s)</string>
+    <string name="lista_buscar">Buscar por aplicación</string>
+    <string name="lista_vacia_titulo">Sin registros todavía</string>
+    <string name="lista_vacia_descripcion">Pulsa «Nuevo» para guardar tu primer token o usuario y contraseña.</string>
+    <string name="lista_sin_resultados">No hay coincidencias para «%1$s».</string>
+    <string name="lista_usuario">Usuario: %1$s</string>
+    <string name="lista_contrasena">Contraseña: %1$s</string>
+    <string name="lista_modificado">Modificado: %1$s</string>
+
+    <!-- Acciones -->
+    <string name="accion_nuevo">Nuevo</string>
+    <string name="accion_guardar">Guardar</string>
+    <string name="accion_eliminar">Eliminar</string>
+    <string name="accion_copiar">Copiar</string>
+    <string name="accion_cancelar">Cancelar</string>
+    <string name="accion_volver">Volver</string>
+    <string name="accion_limpiar">Limpiar búsqueda</string>
+
+    <!-- Editor -->
+    <string name="editor_titulo_nuevo">Nuevo registro</string>
+    <string name="editor_titulo_editar">Editar registro</string>
+    <string name="campo_aplicacion">Aplicación, URL o Sitio web *</string>
+    <string name="campo_aplicacion_error">La aplicación es obligatoria</string>
+    <string name="campo_tipo">Tipo de autenticación</string>
+    <string name="campo_token">Token</string>
+    <string name="campo_token_ayuda">Pega aquí el token completo</string>
+    <string name="campo_usuario">Usuario</string>
+    <string name="campo_contrasena">Contraseña</string>
+    <string name="campo_numero_tarjeta">Número de tarjeta</string>
+    <string name="campo_titular">Titular de la tarjeta</string>
+    <string name="campo_cvv">CVV / PIN</string>
+    <string name="campo_mostrar">Ver</string>
+    <string name="campo_ocultar">Ocultar</string>
+    <string name="fechas">Creado: %1$s · Modificado: %2$s</string>
+
+    <!-- Mensajes -->
+    <string name="msg_guardado">Registro guardado</string>
+    <string name="msg_eliminado">Registro eliminado</string>
+    <string name="msg_copiado">Copiado al portapapeles</string>
+    <string name="msg_nada_que_copiar">No hay datos para copiar</string>
+    <string name="msg_error_guardar">No se pudo guardar el registro</string>
+    <string name="msg_error_eliminar">No se pudo eliminar el registro</string>
+    <string name="eliminar_titulo">¿Eliminar registro?</string>
+    <string name="eliminar_mensaje">Se eliminará «%1$s» de forma permanente.</string>
+
+    <!-- Google & Sincronización -->
+    <string name="menu_opciones">Opciones</string>
+    <string name="menu_importar_google">Importar CSV de Google Passwords</string>
+    <string name="menu_sync_google_in">Sincronizar desde Google Passwords (Entrada)</string>
+    <string name="menu_sync_google_out">Sincronizar con Google Passwords (Salida)</string>
+    <string name="menu_sync_google_1click">Conectar Google Password Manager (1 clic)</string>
+    <string name="menu_respaldar">Respaldar a Google Drive / Archivo</string>
+    <string name="menu_restaurar">Restaurar desde respaldo</string>
+    <string name="msg_importacion_exitosa">Se importaron %1$d registros correctamente</string>
+    <string name="msg_importacion_error">Error al importar el archivo CSV</string>
+    <string name="msg_respaldo_exitoso">Respaldo guardado correctamente</string>
+    <string name="msg_respaldo_error">Error al guardar el respaldo</string>
+    <string name="msg_restauracion_exitosa">Respaldo restaurado correctamente</string>
+    <string name="msg_restauracion_error">Error al restaurar el respaldo</string>
+    <string name="msg_sync_google_in_exito">Se sincronizó 1 credencial desde Google Passwords</string>
+    <string name="msg_sync_google_in_vacio">No se seleccionó ninguna credencial</string>
+    <string name="msg_sync_google_error">Error de sincronización con Google Passwords: %1$s</string>
+    <string name="msg_sync_google_out_exito">Credencial guardada en Google Passwords correctamente</string>
+    <string name="msg_sync_google_1click_exito">Conectado y sincronizado con Google Password Manager</string>
+    <string name="menu_abrir_webview_google">Abrir Google Passwords (Web)</string>
+    <string name="webview_titulo">Google Passwords (Exportar CSV)</string>
+    <string name="webview_instruccion">Inicia sesión en Google, ve a Configuración y pulsa «Exportar contraseñas». Luego impórtalas aquí.</string>
+</resources>
